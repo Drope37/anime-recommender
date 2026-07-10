@@ -7,8 +7,6 @@ ANILIST_URL = 'https://graphql.anilist.co'
 ESTANDAR_MINUTOS = 288  # 12 episodios x 24 minutos
 PORCENTAJE_VALORACION = 0.7
 
-
-
 def fetch_anilist_data(anime_id):
     query = '''
     query ($idAnime: Int) {
